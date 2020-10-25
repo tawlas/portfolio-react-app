@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { SideNavItems, SideNavLink } from 'carbon-components-react/lib/components/UIShell';
-import {PREFIX_ROUTE} from "../../pages"
 import { StyledSideNav } from './styles';
 
+const PREFIX_ROUTE = "portfolio-react-app"
 const items = [
   { name: 'Me', path: '/' + PREFIX_ROUTE + '/' },
   { name: 'Projects', path: '/' + PREFIX_ROUTE + '/projects'},

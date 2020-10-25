@@ -6,6 +6,7 @@ import Work from './Work';
 import Education from './Education';
 
 export const PREFIX_ROUTE = "portfolio-react-app"
+
 const Pages = ({ user }) => {
   return (
     <Router>
