@@ -5,20 +5,21 @@ import Projects from './Projects';
 import Work from './Work';
 import Education from './Education';
 
+const PREFIX_ROUTE = "portfolio-react-app"
 const Pages = ({ user }) => {
   return (
     <Router>
       <Switch>
-        <Route exact path="/">
+        <Route exact path={`/${PREFIX_ROUTE}/`}>
           <Me user={user} />
         </Route>
-        <Route path="/projects">
+        <Route path={`/${PREFIX_ROUTE}/projects`}>
           <Projects user={user} />
         </Route>
-        <Route path="/work">
+        <Route path={`/${PREFIX_ROUTE}/work`}>
           <Work user={user} />
         </Route>
-        <Route path="/education">
+        <Route path={`/${PREFIX_ROUTE}/education`}>
           <Education user={user} />
         </Route>
       </Switch>
