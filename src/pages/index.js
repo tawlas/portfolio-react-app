@@ -5,7 +5,7 @@ import Projects from './Projects';
 import Work from './Work';
 import Education from './Education';
 
-const PREFIX_ROUTE = "portfolio-react-app"
+export const PREFIX_ROUTE = "portfolio-react-app"
 const Pages = ({ user }) => {
   return (
     <Router>

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { SideNavItems, SideNavLink } from 'carbon-components-react/lib/components/UIShell';
-
+import {PREFIX_ROUTE} from "../../pages"
 import { StyledSideNav } from './styles';
 
 const items = [
